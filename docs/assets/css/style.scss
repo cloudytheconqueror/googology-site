@@ -22,3 +22,9 @@ a:hover, a:focus {
 .inner-list {
   margin: 0;
 }
+
+@media print, screen and (max-width: 960px) {
+  section {
+    margin-left: 0;
+  }
+}
